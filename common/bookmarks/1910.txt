@@ -1,0 +1,113 @@
+bookmarks = {
+	bookmark = {
+		name = "1910_NAME"
+		desc = "1910_DESC"
+		date = 1910.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "GER_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"AUH"={
+			history = "AUH_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"OTT"={
+			history = "OTT_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		"ITA"={
+			history = "ITA_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_1910_DESC"
+			ideology = democratic
+			ideas = {
+			}	
+			focuses = {
+			}		
+		}
+		"RUS"={
+			history = "RUS_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}	
+			focuses = {
+			}			
+		}
+		"FRA"={
+			history = "FRA_1910_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"USA"={
+			history = "USA_1910_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"JAP"={
+			history = "JAP_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}	
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# Other interesting/important countries ####
+		"POR"={
+			minor = yes
+			history = "POR_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"QIN"={
+			minor = yes
+			history = "QIN_1910_DESC"
+			ideology = monarchism
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

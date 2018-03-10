@@ -1,0 +1,24 @@
+state={
+	id=761
+	name="STATE_761" #Togoland
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+			1951 = {
+				naval_base = 2 
+			}
+		}
+		victory_points = {
+			1951 1 
+		}
+	}
+
+	provinces={
+		1951 12843
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

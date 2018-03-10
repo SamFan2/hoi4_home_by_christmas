@@ -1,0 +1,101 @@
+focus_tree = {
+	id = japan_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 30
+			tag = JAP
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1200 }
+	focus = {# Annexation of Korea
+		id = JAP_annexation_of_korea
+		icon = GFX_goal_support_democracy
+		cost = 1
+		available = {
+		has_global_flag = japanese_annexation_of_korea
+		}
+		bypass = {
+		has_global_flag = japanese_annexation_of_korea
+		}
+		x = 10
+		y = 0
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = JAP_develop_korea
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = { focus = JAP_annexation_of_korea }
+		x = 7
+		y = 1
+		completion_reward = {
+			527 = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			525 = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = JAP_withdraw_from_korea
+		icon = GFX_goal_support_democracy
+		cost = 1
+		available = {
+			has_global_flag = japanese_withdrawl_from_korea
+		}
+		bypass = {
+			has_global_flag = japanese_withdrawal_from_korea
+		}
+		x = 1
+		y = 0
+		completion_reward = {
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,94 @@
+﻿###########################
+# Portuguese Events
+###########################
+
+add_namespace = portugal
+
+# Portuguese Revolution
+country_event = {
+	id = portugal.1
+	title = portugal.1.t
+	desc = portugal.1.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { has_global_flag = POR_revolution_over }
+		NOT = { has_global_flag = POR_revolution }
+		tag = POR
+		has_defensive_war = no
+		has_government = monarchism
+		NOT = { date > 1913.1.1 }
+	}
+
+	mean_time_to_happen = {
+		days = 277 #Days between jan 1 1910 and oct 5 1910
+	}
+	
+	option = { # Support monarchists
+		name = portugal.1.a
+		ai_chance = { 
+			factor = 10 
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 0
+			}
+		}
+		hidden_effect = {
+			news_event = { hours = 6 id = news.1 }
+			set_global_flag = POR_revolution
+			POR = {
+				load_oob = "POR_civilwar"
+				set_national_unity = 0.7
+			}
+			PTR = {
+				load_oob = "PTR_civilwar"
+				set_national_unity = 0.9
+				every_state = {
+					limit = { is_core_of = POR }
+					add_core_of = PTR
+				}
+				transfer_state = 179
+				transfer_state = 181
+			}
+			POR = {
+					declare_war_on = { target = PTR type = annex_everything }
+			}
+				
+		}
+		custom_effect_tooltip = POR_monarchists_chosen
+	}
+	option = { # Support Republicans
+		name = portugal.1.b
+		ai_chance = {
+			factor = 15
+		}
+		hidden_effect = {
+			set_politics = { ruling_party = democratic elections_allowed = yes }
+			set_political_party = { ideology = democratic popularity = 0.85 }
+		}
+		custom_effect_tooltip = POR_republicans_chosen
+	}
+}
+country_event = {
+	id = portugal.2
+	title = portugal.2.t
+	desc = portugal.2.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+	
+	fire_only_once = yes
+	hidden = yes
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { has_global_flag = POR_revolution_over }
+		has_global_flag = POR_revolution 
+		tag = POR
+		has_government = monarchism
+		NOT = { date > 1913.1.1 }
+	}
+	immediate = {
+		POR = { declare_war_on = PTR }
+	}
+}

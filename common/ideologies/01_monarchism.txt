@@ -1,0 +1,48 @@
+ideologies = {
+	monarchism = {
+	
+		types = {
+		
+			absolute_monarchy  = {
+			}
+			constitutional_monarchy  = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_NONALIGNED_1"
+			"FACTION_NAME_NONALIGNED_2"
+			"FACTION_NAME_NONALIGNED_3"
+			"FACTION_NAME_NONALIGNED_4"
+			"FACTION_NAME_NONALIGNED_5"
+		}
+		
+		color = { 120 81 169 }
+		
+		
+		war_impact_on_world_tension = 0.25		#no major danger
+		faction_impact_on_world_tension = 0.1
+		
+		rules = {
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+		}
+		
+		modifiers = {
+			generate_wargoal_tension = 0.2
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.4
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.4
+		}
+		
+		faction_modifiers = {
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		ai_neutral = yes # 
+	}
+}

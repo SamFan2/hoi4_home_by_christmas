@@ -1,0 +1,73 @@
+JAP_decisions = {
+
+	annex_korea = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = JAP
+		}
+
+		available = {
+			tag = JAP
+			KOR = { is_subject_of = JAP }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			tag = JAP
+			KOR = { is_subject_of = JAP }
+		}
+
+		complete_effect = {
+			annex_country = { target = KOR transfer_troops = yes }
+			set_global_flag = japanese_annexation_of_korea
+		}
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				date < 1910.8.22
+			}
+		}
+	}
+	withdraw_from_korea = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			tag = JAP
+		}
+
+		available = {
+			tag = JAP
+			KOR = { is_subject_of = JAP }
+		}
+
+		cost = 50
+
+		fire_only_once = yes
+
+		visible = {
+			tag = JAP
+			KOR = { is_subject_of = JAP }
+		}
+
+		complete_effect = {
+			end_puppet = KOR
+			set_global_flag = japanese_withdrawal_from_korea
+		}
+
+		ai_will_do = {
+			factor = 40
+			modifier = {
+				factor = 0
+				date < 1910.8.22
+			}
+		}
+	}
+}

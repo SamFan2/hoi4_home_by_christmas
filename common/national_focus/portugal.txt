@@ -1,0 +1,168 @@
+focus_tree = {
+	id = portuguese_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			OR = {
+				tag = POR
+				tag = PTR
+			}
+		}
+	}
+	@revolution_left = 0
+	@revolution = 1
+	@revolution_right = 2
+	@europe_focus_left2 = 6
+	@europe_focus_left1 = 7
+	@europe_focus = 8
+	@europe_focus_right1 = 9
+	@europe_focus_right2 = 10
+	@scramble_for_africa_left2 = 12
+	@scramble_for_africa_left1 = 13
+	@scramble_for_africa = 14
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1350 }
+	
+	focus = {
+		id = POR_aftermath_of_the_revolution
+		icon = GFX_goal_generic_demand_territory
+		x = @revolution
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 1000
+		}
+		available = {
+			has_global_flag = POR_revolution_over
+		}
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = POR_the_monarchy_triumphant
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_aftermath_of_the_revolution }
+		mutually_exclusive = { focus = POR_the_new_republic }
+		x = @revolution_left
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = POR_the_new_republic
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_aftermath_of_the_revolution }
+		mutually_exclusive = { focus = POR_the_monarchy_triumphant }
+		x = @revolution_right
+		y = 1
+		cost = 10
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = POR_the_republican_problem
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_the_monarchy_triumphant }
+		mutually_exclusive = { focus = POR_status_of_the_monarchy }
+		x = @revolution_left
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = POR_status_of_the_monarchy
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_the_new_republic }
+		mutually_exclusive = { focus = POR_the_republican_problem }
+		x = @revolution_right
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1000
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = POR_european_focus
+		icon = GFX_goal_generic_demand_territory
+		x = @europe_focus
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 100
+		}
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = POR_side_with_germany
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_european_focus }
+		mutually_exclusive = { focus = POR_side_with_france }
+		x = @europe_focus_left1
+		y = 1
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = POR_side_with_france
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = POR_european_focus }
+		mutually_exclusive = { focus = POR_side_with_germany }
+		x = @europe_focus_right1
+		y = 1
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+}

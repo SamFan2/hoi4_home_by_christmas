@@ -1,0 +1,21 @@
+state={
+	id=763
+	name="STATE_763" #Danish Virgin Islands
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 2
+			4155 = {
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		4155
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

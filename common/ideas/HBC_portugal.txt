@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+		POR_monarchy = {
+			
+			allowed = {
+				OR = {
+					original_tag = POR
+					original_tag = PTR
+				}
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			picture = POR_monarchy
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.05
+				monarchism_drift = 0.05
+				conscription = 0.002
+			}
+			
+
+		}
+	}
+}

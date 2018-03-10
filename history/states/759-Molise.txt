@@ -1,0 +1,20 @@
+state={
+	id=759
+	name="STATE_759" #Molise
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = TSI
+		buildings = {
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		963 3923 3966 6831
+	}
+	manpower=812902
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

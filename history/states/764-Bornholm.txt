@@ -1,0 +1,24 @@
+state={
+	id=764
+	name="STATE_764" #Bornholm
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 4
+			6361 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			6361 3
+		}
+	}
+
+	provinces={
+		6361
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

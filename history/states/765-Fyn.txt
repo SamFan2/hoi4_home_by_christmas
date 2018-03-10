@@ -1,0 +1,24 @@
+state={
+	id=765
+	name="STATE_765" #Fyn
+
+	history={
+		owner = DEN
+		buildings = {
+			infrastructure = 6
+			3325 = {
+				naval_base = 4
+			}
+		}
+		victory_points = { 
+			3325 5 
+		}
+	}
+
+	provinces={
+		3325 3374
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

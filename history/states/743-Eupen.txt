@@ -1,0 +1,22 @@
+state={
+	id=743
+	name="STATE_743"
+
+	history={
+		owner = GER
+        add_core_of = GER
+		add_core_of = BEL
+		buildings = {
+			infrastructure = 9
+
+		}
+
+	}
+
+	provinces={
+		3488
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
