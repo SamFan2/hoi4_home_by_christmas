@@ -1,0 +1,10 @@
+JAP_decisions = {
+	allowed = {
+		original_tag = JAP
+	}
+
+	visible = {
+		original_tag = JAP
+		}
+	}
+}

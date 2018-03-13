@@ -1,0 +1,10 @@
+﻿l_english:
+ hbc_news.1.t:0 "The Japan-Korea Annexation Treaty"
+ hbc_news.1.d:0 "This morning, the Japan-Korea Annexation Treaty was signed between [JAP.GetNameDef] and [KOR.GetNameDef], resulting in Korea's annexation into Japan, effective immediately."
+ hbc_news.1.o1:0 "Who cares?"
+ hbc_news.1.o2:0 "Another step towards [JAP.GetAdjective] dominance in Asia!"
+ hbc_news.2.t:0 "Japan declares war on Korea!"
+ hbc_news.2.d:0 "Due to the Korean government's refusal of the term's of Japan's proposed annexation of Korea into the Empire of Japan, Japan has declared war on Korea and begun an invasion."
+ hbc_news.2.o1:0 "Korea won't last long."
+ hbc_news.2.o2:0 "We will show them the error of their ways!"
+ hbc_news.2.o3:0 "We must resist!"

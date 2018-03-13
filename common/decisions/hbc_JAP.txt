@@ -23,7 +23,9 @@ JAP_decisions = {
 		}
 
 		complete_effect = {
-			annex_country = { target = KOR transfer_troops = yes }
+			KOR = {
+				country_event =  { hours = 1 id = hbc_japan.1 }
+			}
 			set_global_flag = japanese_annexation_of_korea
 		}
 
@@ -60,6 +62,7 @@ JAP_decisions = {
 		complete_effect = {
 			end_puppet = KOR
 			set_global_flag = japanese_withdrawal_from_korea
+			KOR = { country_event = hbc_japan.4 }
 		}
 
 		ai_will_do = {

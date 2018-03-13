@@ -1,0 +1,46 @@
+city_renaming_decisions = {
+
+	rename_st_petersburg_petrograd = {
+
+		icon = generic_political_discourse
+
+		allowed = {
+			always = yes
+			OR = {
+				tag = RUS
+				tag = SOV
+			}
+		}
+
+		available = {
+			controls_state = 195
+			has_war_with= GER
+			OR = {
+				tag = RUS
+				tag = SOV
+			}
+		}
+
+		cost = 5
+
+		fire_only_once = yes
+
+		visible = {
+			controls_state = 195
+			has_war_with= GER
+			OR = {
+				tag = RUS
+				tag = SOV
+			}
+		}
+
+		complete_effect = {
+			195 = { set_state_name = "Petrograd"
+			set_province_name = { id = 3151 name = "Petrograd" }
+		}
+
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

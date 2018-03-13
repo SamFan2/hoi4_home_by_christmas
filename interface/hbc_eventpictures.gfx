@@ -1,0 +1,18 @@
+#NEWS EVENTS
+spriteTypes = { 
+	
+	spriteType = { #Japan-Korea Annexation Treaty
+		name = "GFX_hbc_news_event_japan_korea_annexation_treaty"
+		texturefile = "gfx/event_pictures/news/japan_korea_annexation_treaty.dds"
+	}
+	
+	
+	
+	
+	
+#COUNTRY EVENTS
+	spriteType = { #Japanese troops marching in Korea
+		name = "GFX_hbc_country_event_japanese_troops_marching"
+		texturefile = "gfx/event_pictures/country/japanese_troops_marching.dds"
+	}
+}

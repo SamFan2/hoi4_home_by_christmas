@@ -1,5 +1,5 @@
 focus_tree = {
-	id = japan_focus
+	id = hbc_japan_focus
 	
 	country = {
 		factor = 0

@@ -1,0 +1,10 @@
+city_renaming_decisions = {
+	allowed = {
+		always = yes
+	}
+
+	visible = {
+		always = yes
+		}
+	}
+}

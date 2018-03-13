@@ -1,0 +1,59 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = hbc_news
+
+# Korea annexed by Japan
+news_event = {
+	id = hbc_news.1
+	title = hbc_news.1.t
+	desc = hbc_news.1.d
+	picture = GFX_hbc_news_event_japan_korea_annexation_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hbc_news.1.o1
+		trigger = {
+			NOT = {
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = hbc_news.1.o2
+		trigger = { TAG = JAP }
+	}
+}
+# Korea refuses annexation
+news_event = {
+	id = hbc_news.2
+	title = hbc_news.2.t
+	desc = hbc_news.2.d
+	picture = GFX_hbc_news_event_japan_korea_annexation_treaty
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hbc_news.2.o1
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = hbc_news.2.o2
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = hbc_news.2.o3
+		trigger = { TAG = KOR }
+	}
+}

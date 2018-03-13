@@ -1,0 +1,11 @@
+﻿l_english:
+ hbc_japan.1.t:0 "Japan proposes annexation"
+ hbc_japan.1.d:0 "Japan has recently come to us with a proposal for our annexation into the Empire of Japan. If we refuse, they will surely take us over by force."
+ hbc_japan.1.o1:0 "Accept annexation"
+ hbc_japan.1.o2:0 "Refuse annexation"
+ hbc_japan.2.t:0 "Korea accepts annexation"
+ hbc_japan.2.d:0 "Korea has agreed to our proposal for their annexation into the glorious Empire of Japan!"
+ hbc_japan.2.o1:0 "Great news!"
+ hbc_japan.3.t:0 "Korea refuses annexation"
+ hbc_japan.3.d:0 "The foolish Koreans have declined our proposal for their annexation into our glorious empire! Time to teach them a lesson!"
+ hbc_japan.3.o1:0 "It was an order, not a request."
