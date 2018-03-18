@@ -12,8 +12,7 @@ state={
 	}
 
 	history={
-		owner = QIN
-		add_core_of = QIN
+		owner = TIB
 		add_core_of = TIB
 		buildings = {
 			infrastructure = 1

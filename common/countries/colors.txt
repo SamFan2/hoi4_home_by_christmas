@@ -485,8 +485,8 @@ RUS = {
 	color_ui = rgb { 11 112 24 }
 }
 QIN = {
-	color = rgb { 230 242 231 }
-	color_ui = rgb { 230 242 231 }
+	color = rgb { 219 189 17 }
+	color_ui = rgb { 219 189 17 }
 }
 PTR = {
 	color = rgb { 111 206 92 }

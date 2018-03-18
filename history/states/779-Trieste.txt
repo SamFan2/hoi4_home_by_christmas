@@ -1,0 +1,21 @@
+state={
+	id=779
+	name="STATE_779"
+
+	state_category = city
+	history={
+		owner = AUH
+		add_core_of = AUH
+		add_core_of = ITA
+		victory_points = {
+			6626 1 
+		}
+		buildings = {
+			infrastructure = 7
+		}
+	}
+	provinces={
+		6626 
+	}
+	manpower=248307
+}

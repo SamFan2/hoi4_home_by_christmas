@@ -1,0 +1,39 @@
+
+state={
+	id=772
+	name="STATE_772"
+
+	history={
+		owner = AUH
+		add_core_of = AUH
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+
+		}
+	}
+
+	provinces={
+		6631 9598 
+	}
+	manpower=350739
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

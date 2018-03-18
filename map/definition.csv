@@ -597,7 +597,7 @@
 596;3;3;145;land;false;hills;1
 597;3;4;240;sea;true;ocean;0
 598;3;6;5;land;false;hills;2
-599;3;6;210;land;false;hills;1
+599;3;6;210;land;true;hills;1
 600;3;6;248;sea;true;ocean;0
 601;3;8;236;sea;false;ocean;0
 602;3;9;70;land;false;forest;2
@@ -967,7 +967,7 @@
 966;4;189;10;land;false;mountain;1
 967;4;189;55;land;true;hills;1
 968;4;189;160;land;false;hills;2
-969;4;192;20;land;false;plains;1
+969;216;254;87;land;false;hills;1
 970;4;192;75;land;true;plains;1
 971;4;192;225;land;false;hills;2
 972;4;195;40;land;false;forest;6
@@ -6671,7 +6671,7 @@
 6670;87;48;146;land;false;plains;1
 6671;87;51;61;land;false;mountain;7
 6672;87;51;211;land;false;plains;1
-6673;87;54;176;land;false;mountain;1
+6673;248;136;65;land;false;mountain;1
 6674;87;57;91;land;false;mountain;7
 6675;87;57;141;land;false;mountain;1
 6676;87;60;1;land;false;forest;2
@@ -8620,7 +8620,7 @@
 8619;109;15;244;sea;false;ocean;0
 8620;109;16;232;sea;false;ocean;0
 8621;109;16;244;sea;true;ocean;0
-8622;109;17;244;sea;true;ocean;0
+8622;109;17;244;lake;false;lakes;0
 8623;109;19;248;sea;false;ocean;0
 8624;109;20;236;sea;false;ocean;0
 8625;109;21;244;sea;false;ocean;0
@@ -11596,7 +11596,7 @@
 11595;171;42;82;land;false;mountain;1
 11596;171;42;132;land;false;plains;1
 11597;171;42;187;land;true;plains;1
-11598;171;45;47;land;false;mountain;1
+11598;69;114;199;land;true;plains;1
 11599;171;45;152;land;true;plains;7
 11600;171;45;197;land;true;plains;1
 11601;171;48;12;land;false;mountain;1
@@ -13202,4 +13202,13 @@
 13201;188;96;100;lake;false;lakes;0
 13202;138;235;160;land;true;mountain;2
 13203;211;241;202;land;true;mountain;2
-13204;95;65;145;land;true;unknown;6
+13204;95;65;145;land;true;forest;6
+13205;129;198;204;land;false;mountain;1
+13206;125;132;13;land;false;mountain;1
+13207;177;118;60;land;false;mountain;1
+13208;106;185;44;land;false;hills;1
+13209;88;63;96;land;true;plains;1
+13210;255;30;40;land;true;plains;1
+13211;105;73;163;land;false;mountain;1
+13212;4;192;20;land;false;plains;1
+13213;167;96;210;land;true;mountain;1

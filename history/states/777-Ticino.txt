@@ -1,0 +1,22 @@
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 243984
+	
+	
+	state_category = city
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SWI
+	}
+
+	provinces={
+		658 3641 3660 3662 9600
+	}
+}
