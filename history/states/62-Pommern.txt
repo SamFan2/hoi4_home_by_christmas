@@ -5,7 +5,7 @@ state={
 	manpower = 1406221
 	
 	
-	state_category = town
+	state_category = state_category_4
 
 	history={
 		owner = GER

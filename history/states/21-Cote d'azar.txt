@@ -7,7 +7,7 @@ state={
 		aluminium=120
 	}
 
-	state_category = city
+	state_category = state_category_6
 
 	history={
 		owner = FRA

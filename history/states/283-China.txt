@@ -5,7 +5,7 @@ state={
 	manpower = 6705400
 	
 	
-	state_category = town
+	state_category = state_category_4
 	
 	resources={
 

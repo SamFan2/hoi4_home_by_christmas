@@ -7,7 +7,7 @@ state={
 		steel=90
 	}
 
-	state_category = metropolis
+	state_category = state_category_10
 
 
 	history={

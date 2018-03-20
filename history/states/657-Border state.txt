@@ -8,7 +8,7 @@ state={
 	}
 
 
-	state_category = pastoral
+	state_category = state_category_1
 
 	history={
 		owner = RUS

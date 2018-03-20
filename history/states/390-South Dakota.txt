@@ -2,8 +2,8 @@
 state={
 	id=390
 	name="STATE_390"
-	manpower = 692849
-	state_category = rural
+	manpower = 583888
+	state_category = state_category_2
 
 	history={
 		owner = USA

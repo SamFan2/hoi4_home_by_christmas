@@ -4,7 +4,7 @@ state={
 	name="STATE_616" # Ningxia
 	manpower = 4077600
 
-	state_category = pastoral
+	state_category = state_category_1
 
 	history={
 		owner = XSM

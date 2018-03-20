@@ -2,9 +2,9 @@
 state={
 	id=373
 	name="STATE_373"
-	manpower = 3629365
+	manpower = 3293335
 	
-	state_category = large_city
+	state_category = state_category_8
 	
 	resources={
 		aluminium=18

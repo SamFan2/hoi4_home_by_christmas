@@ -2,7 +2,7 @@ state={
 	id=683
 	name="STATE_683"
 	
-	state_category = wasteland
+	state_category = state_category_0
 	
 	resources={
 		aluminium=8.000

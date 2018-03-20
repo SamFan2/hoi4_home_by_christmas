@@ -6,7 +6,7 @@ state={
 		steel=38
 	}
 	
-	state_category = city
+	state_category = state_category_6
 
 
 	history={

@@ -2,12 +2,12 @@
 state={
 	id=383
 	name="STATE_383"
-	manpower = 1880998
+	manpower = 1690949
 	resources={
 		oil=42
 	}
 	
-	state_category = city
+	state_category = state_category_6
 
 	history={
 		owner = USA

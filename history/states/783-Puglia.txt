@@ -2,7 +2,7 @@ state={
 	id=783
 	name="STATE_783"
     
-    state_category = city
+    state_category = state_category_6
     history={
         owner = ITA
         victory_points = {

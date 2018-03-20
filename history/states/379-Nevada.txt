@@ -2,9 +2,9 @@
 state={
 	id=379
 	name="STATE_379"
-	manpower = 91057
+	manpower = 81875
 	
-	state_category = rural
+	state_category = state_category_2
 	
 	resources={
 		steel=136
@@ -18,6 +18,12 @@ state={
 			infrastructure = 4
 		}
 		add_core_of = USA
+		victory_points = {
+			10422 1
+		}
+		victory_points = {
+			4607 3
+		}
 	}
 
 	provinces={

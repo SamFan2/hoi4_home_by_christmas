@@ -2,9 +2,9 @@
 state={
 	id=367
 	name="STATE_367"
-	manpower = 2646247
+	manpower = 2138093
 	
-	state_category = city
+	state_category = state_category_6
 
 	history={
 		owner = USA
@@ -22,12 +22,6 @@ state={
 		victory_points = {
 			12735 1 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 4
-			}
-		}
-
 	}
 
 	provinces={

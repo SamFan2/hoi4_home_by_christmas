@@ -2,8 +2,8 @@
 state={
 	id=629
 	name="STATE_629"
-	manpower = 368336
-	state_category = town
+	manpower = 191874
+	state_category = state_category_4
 	history={
 		owner = USA
 		buildings = {

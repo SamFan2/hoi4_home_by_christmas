@@ -10,7 +10,7 @@ state={
 		tungsten = 20
 	}
 	
-	state_category = city
+	state_category = state_category_6
 
 	history={
 		owner = GRE

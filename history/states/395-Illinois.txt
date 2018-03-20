@@ -2,20 +2,19 @@
 state={
 	id=395
 	name="STATE_395"
-	manpower = 7630651
-	state_category = megalopolis
+	manpower = 5638591
+	state_category = state_category_12
 
 	history={
 		owner = USA
-		buildings = {
-			infrastructure = 7
-			arms_factory = 1
-			industrial_complex = 11
-			air_base = 3
-		}
 		add_core_of = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			industrial_complex = 7
+		}
 		victory_points = {
-			9450 30.0
+			9450 30
 		}
 
 	}

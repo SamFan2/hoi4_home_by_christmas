@@ -5,7 +5,7 @@ state={
 
 	manpower = 13000
 	
-	state_category = wasteland
+	state_category = state_category_0
 	
 	
 	resources={

@@ -4,7 +4,7 @@ state=
 	name="STATE_620" # Hubei
 	manpower = 25541600
 	
-	state_category = city
+	state_category = state_category_6
 	history=
 	{
 		owner = CHI

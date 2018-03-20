@@ -3,7 +3,7 @@ state={
 	name="STATE_690"
 	manpower = 40000
 	
-	state_category = tiny_island
+	state_category = state_category_0
 
 	history={
 		owner = ENG

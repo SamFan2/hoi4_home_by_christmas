@@ -1,0 +1,23 @@
+state = {
+	id = 790
+	name = "STATE_790"
+
+	history = {
+		owner = USA
+		add_core_of = USA
+		victory_points = {
+			733 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1 
+		}
+	}
+
+	provinces={
+		733 3712 3715 10481
+	}
+	manpower = 430572
+	buildings_max_level_factor = 1.000
+	state_category = state_category_4
+}

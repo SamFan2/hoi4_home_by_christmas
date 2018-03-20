@@ -2,7 +2,7 @@ state={
 	id=332
 	name="STATE_332"
 	
-	state_category = wasteland
+	state_category = state_category_0
 
 	history={
 		owner = ENG

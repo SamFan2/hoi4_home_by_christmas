@@ -7,7 +7,7 @@ state={
 		chromium=6
 	}
 	
-	state_category = town
+	state_category = state_category_4
 
 	history={
 		owner = GUA
