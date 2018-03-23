@@ -1,0 +1,20 @@
+state={
+	id=800
+	
+	impassable = yes
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	name="STATE_800" #Name is a placeholder
+	provinces={
+		13215 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

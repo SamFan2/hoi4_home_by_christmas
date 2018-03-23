@@ -1,0 +1,18 @@
+state={
+	id=799
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	name="STATE_799"
+	provinces={
+		11014 12941 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

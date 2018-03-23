@@ -1,0 +1,21 @@
+state={
+	id=795
+	name="STATE_795"
+
+	impassable = yes
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1994 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

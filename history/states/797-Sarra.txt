@@ -1,0 +1,21 @@
+state={
+	id=797
+	
+	impassable = yes
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	name="STATE_797"
+	provinces={
+		4191 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
